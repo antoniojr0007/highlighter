@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".Fragment.DesenvolvedorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="?android:attr/listDivider" />
+
+    <EditText
+        android:id="@+id/editNomeEquipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desenvolvedor_nome_equipe"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/desenvolvedor_nome_equipe"
+        android:inputType="textPersonName" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:background="?android:attr/listDivider" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagemEquipe"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/desenvolvedor_imagem_de_Perfil"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/textViewEquipe"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:contentDescription="@string/desenvolvedor_detalhe" />
+
+    <Button
+        android:id="@+id/buttonVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:text="@string/desenvolvedor_button_voltar" />
+
+</LinearLayout>

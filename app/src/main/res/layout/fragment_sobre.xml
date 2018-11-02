@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearSobre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".Fragment.SobreFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:drawable/screen_background_light_transparent" />
+
+    <EditText
+        android:id="@+id/editTextNomeApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="18sp"
+        android:text="@string/sobre_nome_app_view"
+        android:textAllCaps="true"
+        android:typeface="sans" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:background="@android:drawable/screen_background_light_transparent" />
+
+    <TextView
+        android:id="@+id/textViewSobreApp"
+        android:layout_width="match_parent"
+        android:layout_height="349dp"
+        android:contentDescription="@string/sobre_sobre_view"
+        android:text="@string/sobre_sobre_view"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:text="@string/sobre_button_voltar" />
+
+</LinearLayout>

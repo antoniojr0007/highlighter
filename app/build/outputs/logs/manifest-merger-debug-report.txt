@@ -1,0 +1,247 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\8b61e06657da88f298af3db692a9724e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.santalu:mask-edittext:1.0.9] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\mask-edittext-1.0.9.aar\6a3e2e8c978396b246a2772a787eb5d3\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2f9782e21b3d81984c97689d3dfaec4d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1dc379615b8b2dc20cc32051a88c7940\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\1bb82929597166da4782637cbb00e2f7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\85cb21e088557dbdb4e6e9f83519752d\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\a1da6b8fae714f1b83cc3d60d3192530\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1ea47d2e977c090d64d17b60db40bc23\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\1bfa42c676a05b7186dc48f0aba9cae2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8d11f4a8456355224b65df7209ac82b1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\8e89cb4287db1837cb49f56b83c85f14\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\4bf70d68d9bd9a49bed94e87559ec989\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\e0881f4a08268e5dd2f8280bde909c6f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\d6ec37051b9f5589e85fcb96d79e2f8f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\9691344526a884fa7a895ed432cb80cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\717e547d0d64fa320ac78a4a7a6b2f55\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\9869b37ac35ec7a8401f22b47c6fd691\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\f6b3c6b35228c2631877ab69e769ec37\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\49b9f8ecd80330ff43f7e81db3dccf01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e85640c91ccd028b8211ccd550b762b9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\5d50e868f6bc68eee5820d9a8ab09377\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\73b48221c23ffae5394bb1405c1bea47\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\9e3a0b15130947da563a6762341984bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f21edad016edc1e34aad59d78595905c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\87c26c80d49da1c3f14ec4b882930b9e\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\6ac0e26920fce83be63b96a6ff768fd2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a27ac5f9eaf502e6676c27029de5b664\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\23569588a10dade54999ac04b35c0694\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\f0dd6a8f6b3949be9fd7937fb91f587c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\98edff41904bdf22c8a08cc7b8356be1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\a617a415a74fc61d7a49df3219dafb91\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\87a1cd5b1688452f3b5f93720b29de82\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ecdb4aed9fd25fdc37c8a3b6710497e3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\be2436cbbbfdf5fac98b71b2c4e54693\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7e50456c772d0e700559ae0aaebefbd5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\bfe903600533d65b080d1b61e542e078\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:7:5-37:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\8b61e06657da88f298af3db692a9724e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\8b61e06657da88f298af3db692a9724e\AndroidManifest.xml:22:5-20
+MERGED from [com.github.santalu:mask-edittext:1.0.9] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\mask-edittext-1.0.9.aar\6a3e2e8c978396b246a2772a787eb5d3\AndroidManifest.xml:11:5-20
+MERGED from [com.github.santalu:mask-edittext:1.0.9] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\mask-edittext-1.0.9.aar\6a3e2e8c978396b246a2772a787eb5d3\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1dc379615b8b2dc20cc32051a88c7940\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1dc379615b8b2dc20cc32051a88c7940\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\a1da6b8fae714f1b83cc3d60d3192530\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\a1da6b8fae714f1b83cc3d60d3192530\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1ea47d2e977c090d64d17b60db40bc23\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1ea47d2e977c090d64d17b60db40bc23\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f21edad016edc1e34aad59d78595905c\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f21edad016edc1e34aad59d78595905c\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\87c26c80d49da1c3f14ec4b882930b9e\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\87c26c80d49da1c3f14ec4b882930b9e\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f21edad016edc1e34aad59d78595905c\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:11:9-41
+	android:background
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:9:9-45
+	android:roundIcon
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:12:9-44
+	android:icon
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:10:9-39
+	android:allowBackup
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:14:9-40
+activity#br.com.highlighter.www.highlighter.Activity.MainActivity
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:15:9-18:59
+	android:label
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:17:13-45
+	android:theme
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:18:13-56
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:16:13-50
+activity#br.com.highlighter.www.highlighter.Activity.LoginActivity
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:19:19-57
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:23:27-74
+activity#br.com.highlighter.www.highlighter.Activity.CadastroActivity
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:26:9-63
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:26:19-60
+activity#br.com.highlighter.www.highlighter.Activity.AtualizarPerfilActivity
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:27:9-70
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:27:19-67
+activity#br.com.highlighter.www.highlighter.Activity.LivroActivity
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:28:9-60
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:28:19-57
+activity#br.com.highlighter.www.highlighter.Activity.ComentarioLivroActivity
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:29:9-70
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:29:19-67
+activity#br.com.highlighter.www.highlighter.Activity.FilmeActivity
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:30:9-60
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:30:19-57
+activity#br.com.highlighter.www.highlighter.Activity.SerieActivity
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:31:9-60
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:31:19-57
+activity#br.com.highlighter.www.highlighter.Activity.ComentarioFilmeActivity
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:32:9-70
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:32:19-67
+activity#br.com.highlighter.www.highlighter.Activity.ComentarioSerieActivity
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:33:9-70
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:33:19-67
+activity#br.com.highlighter.www.highlighter.Activity.SugestaoLivroActivity
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:34:9-68
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:34:19-65
+activity#br.com.highlighter.www.highlighter.Activity.SugestaoFilmeActivity
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:35:9-68
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:35:19-65
+activity#br.com.highlighter.www.highlighter.Activity.SugestaoSerieActivity
+ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:36:9-77
+	android:name
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml:36:19-65
+uses-sdk
+INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\8b61e06657da88f298af3db692a9724e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\8b61e06657da88f298af3db692a9724e\AndroidManifest.xml:20:5-44
+MERGED from [com.github.santalu:mask-edittext:1.0.9] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\mask-edittext-1.0.9.aar\6a3e2e8c978396b246a2772a787eb5d3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.santalu:mask-edittext:1.0.9] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\mask-edittext-1.0.9.aar\6a3e2e8c978396b246a2772a787eb5d3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2f9782e21b3d81984c97689d3dfaec4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2f9782e21b3d81984c97689d3dfaec4d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1dc379615b8b2dc20cc32051a88c7940\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1dc379615b8b2dc20cc32051a88c7940\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\1bb82929597166da4782637cbb00e2f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\1bb82929597166da4782637cbb00e2f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\85cb21e088557dbdb4e6e9f83519752d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\85cb21e088557dbdb4e6e9f83519752d\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\a1da6b8fae714f1b83cc3d60d3192530\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\a1da6b8fae714f1b83cc3d60d3192530\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1ea47d2e977c090d64d17b60db40bc23\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1ea47d2e977c090d64d17b60db40bc23\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\1bfa42c676a05b7186dc48f0aba9cae2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\1bfa42c676a05b7186dc48f0aba9cae2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8d11f4a8456355224b65df7209ac82b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8d11f4a8456355224b65df7209ac82b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\8e89cb4287db1837cb49f56b83c85f14\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\8e89cb4287db1837cb49f56b83c85f14\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\4bf70d68d9bd9a49bed94e87559ec989\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\4bf70d68d9bd9a49bed94e87559ec989\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\e0881f4a08268e5dd2f8280bde909c6f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\e0881f4a08268e5dd2f8280bde909c6f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\d6ec37051b9f5589e85fcb96d79e2f8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\d6ec37051b9f5589e85fcb96d79e2f8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\9691344526a884fa7a895ed432cb80cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\9691344526a884fa7a895ed432cb80cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\717e547d0d64fa320ac78a4a7a6b2f55\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\717e547d0d64fa320ac78a4a7a6b2f55\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\9869b37ac35ec7a8401f22b47c6fd691\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\9869b37ac35ec7a8401f22b47c6fd691\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\f6b3c6b35228c2631877ab69e769ec37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\f6b3c6b35228c2631877ab69e769ec37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\49b9f8ecd80330ff43f7e81db3dccf01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\49b9f8ecd80330ff43f7e81db3dccf01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e85640c91ccd028b8211ccd550b762b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e85640c91ccd028b8211ccd550b762b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\5d50e868f6bc68eee5820d9a8ab09377\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\5d50e868f6bc68eee5820d9a8ab09377\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\73b48221c23ffae5394bb1405c1bea47\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\73b48221c23ffae5394bb1405c1bea47\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\9e3a0b15130947da563a6762341984bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\9e3a0b15130947da563a6762341984bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f21edad016edc1e34aad59d78595905c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f21edad016edc1e34aad59d78595905c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\87c26c80d49da1c3f14ec4b882930b9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\87c26c80d49da1c3f14ec4b882930b9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\6ac0e26920fce83be63b96a6ff768fd2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\6ac0e26920fce83be63b96a6ff768fd2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a27ac5f9eaf502e6676c27029de5b664\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a27ac5f9eaf502e6676c27029de5b664\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\23569588a10dade54999ac04b35c0694\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\23569588a10dade54999ac04b35c0694\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\f0dd6a8f6b3949be9fd7937fb91f587c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\f0dd6a8f6b3949be9fd7937fb91f587c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\98edff41904bdf22c8a08cc7b8356be1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\98edff41904bdf22c8a08cc7b8356be1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\a617a415a74fc61d7a49df3219dafb91\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\a617a415a74fc61d7a49df3219dafb91\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\87a1cd5b1688452f3b5f93720b29de82\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\87a1cd5b1688452f3b5f93720b29de82\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ecdb4aed9fd25fdc37c8a3b6710497e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ecdb4aed9fd25fdc37c8a3b6710497e3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\be2436cbbbfdf5fac98b71b2c4e54693\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\be2436cbbbfdf5fac98b71b2c4e54693\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7e50456c772d0e700559ae0aaebefbd5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7e50456c772d0e700559ae0aaebefbd5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\bfe903600533d65b080d1b61e542e078\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\bfe903600533d65b080d1b61e542e078\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml

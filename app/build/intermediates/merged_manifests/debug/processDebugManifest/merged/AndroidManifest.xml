@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.highlighter.www.highlighter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:background="@drawable/fundo"
+        android:debuggable="true"
+        android:icon="@drawable/fundo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/fundo"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.com.highlighter.www.highlighter.Activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="br.com.highlighter.www.highlighter.Activity.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="br.com.highlighter.www.highlighter.Activity.CadastroActivity" />
+        <activity android:name="br.com.highlighter.www.highlighter.Activity.AtualizarPerfilActivity" />
+        <activity android:name="br.com.highlighter.www.highlighter.Activity.LivroActivity" />
+        <activity android:name="br.com.highlighter.www.highlighter.Activity.ComentarioLivroActivity" />
+        <activity android:name="br.com.highlighter.www.highlighter.Activity.FilmeActivity" />
+        <activity android:name="br.com.highlighter.www.highlighter.Activity.SerieActivity" />
+        <activity android:name="br.com.highlighter.www.highlighter.Activity.ComentarioFilmeActivity" />
+        <activity android:name="br.com.highlighter.www.highlighter.Activity.ComentarioSerieActivity" />
+        <activity android:name="br.com.highlighter.www.highlighter.Activity.SugestaoLivroActivity" />
+        <activity android:name="br.com.highlighter.www.highlighter.Activity.SugestaoFilmeActivity" />
+        <activity android:name="br.com.highlighter.www.highlighter.Activity.SugestaoSerieActivity" />
+    </application>
+
+</manifest>

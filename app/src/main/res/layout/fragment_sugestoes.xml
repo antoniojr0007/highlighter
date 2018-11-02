@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragment.SugestoesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textViewSugerir"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/sugestoes_intrucoes"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:fontFamily="sans-serif" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSugerirLivro"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:contentDescription="@string/sugestoes_button_livro"
+            android:onClick="SugerirLivro"
+            android:text="@string/sugestoes_button_livro"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSugerirFilme"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:onClick="SugerirFilme"
+            android:text="@string/sugestoes_button_filme"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSugerirSerie"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:onClick="SugerirSerie"
+            android:text="@string/sugestoes_button_serie"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

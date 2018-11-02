@@ -1,0 +1,217 @@
+<resources>
+
+    !--//Dados Do App-->
+    <string name="app_name">AntonioJr</string>
+    <string name="logo_app">Logo</string>
+    <string name="action_settings">Perfil</string>
+    !--//Dados Do App Fim-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    !--//Navigation Header-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    !--//Navigation Fim-->
+
+    <!--//Nav Header-->
+    <string name="nav_header_nome">Nome Completo</string>
+    <string name="nav_header_email">E-mail</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_imagem_de_perfil">Imagem De Perfil</string>
+    <!--//Nav Header Fim-->
+
+    <!--//Activity Login-->
+    <string name="login_imagem_login">Imagem Login</string>
+    <string name="login_email">Digite seu usuário(apelido)</string>
+    <string name="login_senha">Digite sua Senha</string>
+    <string name="login_cadastrase">Não tem uma conta? Crie uma!</string>
+    <string name="login_button_logar">Login</string>
+    <!--//Activity Login Fim-->
+
+    <!--//Activity Cadastro-->
+    <string name="cadastro_nome_completo">Digite seu Nome Completo</string>
+    <string name="cadastro_nick_name">Digite seu Apelido</string>
+    <string name="cadastro_data_nascimento">Digite sua Data de Nascimento</string>
+    <string name="cadastro_telefone">Digite seu Telefone</string>
+    <string name="cadastro_email">Digite seu E-mail</string>
+    <string name="cadastro_senha">Digite sua Senha</string>
+    <string name="cadastro_button_cancelar">Cancelar</string>
+    <string name="cadastro_button_salvar">Salvar</string>
+    <!--//Activity Cadastro Fim-->
+
+    <!--//Activity Perfil Conta-->
+    <string name="perfil_imagem_de_Perfil">Imagem De Perfil</string>
+    <string name="perfil_nome_completo">Nome Completo</string>
+    <string name="perfil_nick_name">Apelido</string>
+    <string name="perfil_idade">Idade</string>
+    <string name="perfil_genero">Genero</string>
+    <string name="perfil_data_nascimento">Data de Nascimento</string>
+    <string name="perfil_telefone">Telefone</string>
+    <string name="perfil_email">E-mail</string>
+    <string name="perfil_senha">Senha</string>
+    <string name="perfil_button_alterar">Alterar</string>
+    <string name="perfil_button_voltar">Voltar</string>
+    <!--//Activity Perfil Conta Fim-->
+
+    <!--//Activity Atualizar Perfil Conta-->
+    <string name="atualizarPerfil_imagem_de_Perfil">Imagem De Perfil</string>
+    <string name="atualizarPerfil_nome_completo">Nome Completo</string>
+    <string name="atualizarPerfil_nick_name">Apelido</string>
+    <string name="atualizarPerfil_idade">Idade</string>
+    <string name="atualizarPerfil_genero">Genero</string>
+    <string name="atualizarPerfil_data_nascimento">Data de Nascimento</string>
+    <string name="atualizarPerfil_telefone">Telefone</string>
+    <string name="atualizarPerfil_email">E-mail</string>
+    <string name="atualizarPerfil_senha">Senha</string>
+    <string name="atualizarPerfil_button_salvar">Salvar</string>
+    <string name="atualizarPerfil_button_cancelar">Cancelar</string>
+
+    <!--//Activity Atualizar Perfil Conta Fim-->
+
+    <!--//Activity Desenvolvedor-->
+    <string name="desenvolvedor_imagem_de_Perfil">Imagem Da Desenvolvedor</string>
+    <string name="desenvolvedor_nome_equipe">Nome Da Equipe </string>
+    <string name="desenvolvedor_detalhe">Detalhe</string>
+    <string name="desenvolvedor_button_voltar">Voltar</string>
+    <!--//Activity Desenvolvedor Fim-->
+
+    <!--//Activity Livro-->
+    <string name="livro_titulo">Titulo Livro</string>
+    <string name="livro_descricao">Descrição Livro</string>
+    <string name="livro_imagem">Imagem Livro</string>
+    <string name="livro_button_curtir">Curtir</string>
+    <string name="livro_button_descurtir">Descurtir</string>
+    <string name="livro_curtidas">Curtidas</string>
+    <string name="livro_descurtidas">Descurtidas</string>
+    <string name="livro_categoria">Categorias</string>
+    <string name="livro_button_voltar">Voltar</string>
+    <string name="livro_button_comentar">Comentar</string>
+    <!--//Activity Livro Fim-->
+
+    <!--//Activity Filme-->
+    <string name="filme_titulo">Titulo Filme</string>
+    <string name="filme_descricao">Descrição Filme</string>
+    <string name="filme_imagem">Imagem Filme</string>
+    <string name="filme_button_curtir">Curtir</string>
+    <string name="filme_button_descurtir">Descurtir</string>
+    <string name="filme_curtidas">Curtidas</string>
+    <string name="filme_descurtidas">Descurtidas</string>
+    <string name="filme_categoria">Categorias</string>
+    <string name="filme_button_voltar">Voltar</string>
+    <string name="filme_button_comentar">Comentar</string>
+    <!--//Activity Filme Fim-->
+
+    <!--//Activity Serie-->
+    <string name="serie_titulo">Titulo Serie</string>
+    <string name="serie_descricao">Descrição Serie</string>
+    <string name="serie_imagem">Imagem Serie</string>
+    <string name="serie_button_curtir">Curtir</string>
+    <string name="serie_button_descurtir">Descurtir</string>
+    <string name="serie_curtidas">Curtidas</string>
+    <string name="serie_descurtidas">Descurtidas</string>
+    <string name="serie_categoria">Categorias</string>
+    <string name="serie_button_voltar">Voltar</string>
+    <string name="serie_button_comentar">Comentar</string>
+    <!--//Activity Serie Fim-->
+
+    <!--//Activity Comentario-->
+    <string name="comentario_titulo_livro">Titulo Livro</string>
+    <string name="comentario_lista_comentario">Lista de Comentarios</string>
+    <string name="comentario_insirar_comentario"> Digite seu comentario</string>
+    <string name="comentario_button_enviar">Enviar</string>
+    <!--//Activity Comentario Fim-->
+
+
+    <!--//Activity Comentario-->
+    <string name="bem_vindo">Seja Bem Vindo ao Highlighter </string>
+    <!--//Activity Comentario Fim-->
+
+    <!--//Activity Sugestoes de Livro, Filme e Serie-->
+    <string name="sugestoes_intrucoes">Para efetuar uma sugestao de livro, filme ou serie basta clicar em um dos botões abaixo referente ao que gostaria de indicar,
+        que sera redirecionado para a tela de sugestao basta inserir os dados solicitados, caso nao saiba algum dos dados basta informar que nao sabe...</string>
+    <string name="sugestoes_button_livro">Livro </string>
+    <string name="sugestoes_button_filme">Filme </string>
+    <string name="sugestoes_button_serie">Serie </string>
+    <!--//Activity Sugestoes de Livro, Filme e Serie Fim-->
+
+    <!--//Activity Sugestoes Livro-->
+    <string name="sugestoes_livro_instrucao">Para efetuar uma sugestao de livro basta preencher os dados abaixo Nome do Livro, Autor do Livro e
+        Editora do Livro, caso nao saiba o Autor do Livro ou Editora do Livro basta informar que nao sabe...</string>
+    <string name="sugestoes_livro_titulo_view">Titulo:</string>
+    <string name="sugestoes_livro_titulo_edit">Titulo do Livro</string>
+    <string name="sugestoes_livro_autor_view">Autor:</string>
+    <string name="sugestoes_livro_autor_edit">Nome do Autor</string>
+    <string name="sugestoes_livro_editora_view">Editora:</string>
+    <string name="sugestoes_livro_editora_edit">Nome da Editora</string>
+    <string name="sugestoes_livro_button_cancelar">Cancelar </string>
+    <string name="sugestoes_livro_button_enviar">Enviar</string>
+    <!--//Activity Sugestoes Livro Fim-->
+
+    <!--//Activity Sugestoes Filme-->
+    <string name="sugestoes_filme_instrucao">Para efetuar uma sugestao de filme basta preencher os dados abaixo Nome do Filme, Ano de Lançamento e a
+        Produtora do Filme, caso nao saiba a Produtora do Filme basta informar que nao sabe...</string>
+    <string name="sugestoes_filme_titulo_view">Titulo:</string>
+    <string name="sugestoes_filme_titulo_edit">Titulo do Filme</string>
+    <string name="sugestoes_filme_lancamento_view">Lançamento:</string>
+    <string name="sugestoes_filme_lancamento_edit">Ano de Lançamento</string>
+    <string name="sugestoes_filme_produtora_view">Produtora:</string>
+    <string name="sugestoes_filme_produtora_edit">Nome da Produtora</string>
+    <string name="sugestoes_filme_button_cancelar">Cancelar </string>
+    <string name="sugestoes_filme_button_enviar">Enviar</string>
+    <!--//Activity Sugestoes Livro Fim-->
+
+    <!--//Activity Sugestoes Serie-->
+    <string name="sugestoes_serie_instrucao">Para efetuar uma sugestao de serie basta preencher os dados abaixo Nome da Serie, Ano de Lançamento e a
+        Produtora da Serie, caso nao saiba a Produtora da Serie basta informar que nao sabe...</string>
+    <string name="sugestoes_serie_titulo_view">Titulo:</string>
+    <string name="sugestoes_serie_titulo_edit">Titulo do Serie</string>
+    <string name="sugestoes_serie_lancamento_view">Lançamento:</string>
+    <string name="sugestoes_serie_lancamento_edit">Ano de Lançamento</string>
+    <string name="sugestoes_serie_produtora_view">Produtora:</string>
+    <string name="sugestoes_serie_produtora_edit">Nome da Produtora</string>
+    <string name="sugestoes_serie_button_cancelar">Cancelar </string>
+    <string name="sugestoes_serie_button_enviar">Enviar</string>
+    <!--//Activity Sugestoes Livro Fim-->
+
+    <!--//Activity Assunto-->
+    <string name="assunto_nome_completo_view">Nome:</string>
+    <string name="assunto_nome_completo_edit">Nome Completo</string>
+    <string name="assunto_email_view">Email:</string>
+    <string name="assunto_email_edit">Digite seu Email</string>
+    <string name="assunto_assunto_view">Assunto:</string>
+    <string name="assunto_assunto_edit">Digite seu Assunto</string>
+    <string name="assunto_corpo_email_edit">Digite o Corpo do Email</string>
+    <string name="assunto_button_cancelar">Cancelar </string>
+    <string name="assunto_button_enviar">Enviar</string>
+    <!--//Activity Assunto Fim-->
+
+    <!--//Activity Sobre-->
+    <string name="sobre_nome_app_view">Highlighter</string>
+    <string name="sobre_sobre_view">Sobre</string>
+    <string name="sobre_button_voltar">Voltar </string>
+    <!--//Activity Sobre Fim-->
+
+    <!--//Spinner Categoria Fim-->
+    <string-array name="spinnerCategoria">
+        <item>Todos</item>
+        <item>Comédia</item>
+        <item>Drama</item>
+        <item>Comédia Romântica</item>
+        <item>Terror</item>
+        <item>Suspense</item>
+        <item>Romance</item>
+        <item>Aventura</item>
+        <item>Ficção</item>
+    </string-array>
+    <!--//Spinner Categoria Fim-->
+
+    <!--//Spinner Genero-->
+    <string-array name="spinnerGenero">
+        <item>Selecione ...</item>
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+    <string name="title_activity_comentario_livro">ComentarioLivroActivity</string>
+    <!--//Spinner Genero Fim-->
+</resources>

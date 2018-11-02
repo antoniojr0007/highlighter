@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".Activity.ComentarioSerieActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/editTextTituloLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="@string/comentario_titulo_livro" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerComentarios"
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextComentario"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/comentario_insirar_comentario"
+            android:ems="10"
+            android:hint="@string/comentario_insirar_comentario"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/imageButtonEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:contentDescription="@string/comentario_button_enviar"
+            android:src="@drawable/ic_send_orenge_24dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonVoltarLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar " />
+
+</LinearLayout>

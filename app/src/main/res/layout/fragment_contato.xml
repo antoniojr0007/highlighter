@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".Fragment.ContatoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/email" />
+
+    <LinearLayout
+        android:id="@+id/LinearNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/viewNomeCompleto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/assunto_button_enviar"
+            android:text="@string/assunto_nome_completo_view"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextNomeCompleto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/assunto_nome_completo_edit"
+            android:ems="10"
+            android:hint="@string/assunto_nome_completo_edit"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/viewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/assunto_email_view"
+            android:text="@string/assunto_email_view"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/assunto_email_edit"
+            android:ems="10"
+            android:hint="@string/assunto_email_edit"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearAssunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/viewAssunto"
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/assunto_assunto_view"
+            android:text="@string/assunto_assunto_view"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextAssunto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/assunto_assunto_edit"
+            android:ems="10"
+            android:hint="@string/assunto_assunto_edit"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextCorpoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:contentDescription="@string/assunto_corpo_email_edit"
+        android:ems="10"
+        android:hint="@string/assunto_corpo_email_edit"
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        android:id="@+id/LinearBotoes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:contentDescription="@string/assunto_button_cancelar"
+            android:onClick="CancelarContato"
+            android:text="@string/assunto_button_cancelar" />
+
+        <Button
+            android:id="@+id/buttonEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:contentDescription="@string/assunto_button_enviar"
+            android:text="@string/assunto_button_enviar" />
+    </LinearLayout>
+</LinearLayout>

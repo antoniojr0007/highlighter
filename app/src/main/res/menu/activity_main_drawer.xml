@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bem_vindo"
+            android:icon="@drawable/ic_tag_faces_orange"
+            android:title="Bem Vindo" />
+        <item
+            android:id="@+id/nav_livro"
+            android:icon="@drawable/ic_library_books_orange"
+            android:title="Livros" />
+        <item
+            android:id="@+id/nav_filme"
+            android:icon="@drawable/ic_library_books_orange"
+            android:title="Filmes" />
+        <item
+            android:id="@+id/nav_serie"
+            android:icon="@drawable/ic_library_books_orange"
+            android:title="Series" />
+        <item
+            android:id="@+id/nav_sugestoes"
+            android:icon="@drawable/ic_import_contacts_orange"
+            android:title="Sugestões" />
+        <item
+            android:id="@+id/nav_contato"
+            android:icon="@drawable/ic_email_orange"
+            android:title="Entre em Contato" />
+        <item
+            android:id="@+id/nav_Perfil"
+            android:icon="@drawable/ic_assignment_ind"
+            android:title="Perfil" />
+    </group>
+
+    <item android:title="Sobre o Aplicativo / Desenvolvedor ">
+        <menu>
+            <item
+                android:id="@+id/nav_Sobre"
+                android:icon="@drawable/ic_assignment"
+                android:title="Sobre" />
+            <item
+                android:id="@+id/nav_Desenvolvedor"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Desenvolvedor" />
+        </menu>
+    </item>
+
+</menu>
