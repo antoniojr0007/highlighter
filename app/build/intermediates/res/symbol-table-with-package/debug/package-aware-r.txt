@@ -1174,6 +1174,8 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id divider
+id divider2
 id divider3
 id divider4
 id divider5
@@ -1205,7 +1207,6 @@ id editTextNomeApp
 id editTextNomeCompleto
 id editTextProdutora
 id editTextSenha
-id editTextTelefone
 id editTextTitulo
 id editTextTituloLivro
 id edit_query
@@ -1252,7 +1253,6 @@ id left
 id line1
 id line3
 id linearLayout
-id linearLayout2
 id listMode
 id list_item
 id masked
@@ -1328,7 +1328,6 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
-id space
 id spacer
 id spinnerFiltro
 id spinnerGenero
@@ -1407,7 +1406,6 @@ id viewTitulo
 id view_offset_helper
 id visible
 id wiewApelido
-id wiewTelefone
 id withText
 id wrap
 id wrap_content

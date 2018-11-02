@@ -1,291 +1,241 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fundo"
     android:orientation="vertical"
-    tools:context=".Fragment.PerfilFragment"
-    tools:layout_editor_absoluteY="25dp">
+    tools:context=".Fragment.PerfilFragment">
 
     <!-- TODO: Update blank fragment layout -->
-
     <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/space"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:id="@+id/FotoNome"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:orientation="vertical">
 
-        <ScrollView
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imagePerfil"
             android:layout_width="match_parent"
-            android:layout_height="465dp">
+            android:layout_height="110dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/perfil_imagem_de_Perfil"
+            android:src="@drawable/padrao" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:id="@+id/FotoNome"
-                    android:layout_width="match_parent"
-                    android:layout_height="173dp"
-                    android:orientation="vertical">
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/imagePerfil"
-                        android:layout_width="match_parent"
-                        android:layout_height="110dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="4dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginRight="8dp"
-                        android:contentDescription="@string/perfil_imagem_de_Perfil"
-                        android:src="@drawable/padrao" />
-
-                    <TextView
-                        android:id="@+id/editTextNome"
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginBottom="344dp"
-                        android:contentDescription="@string/perfil_nome_completo"
-                        android:gravity="center"
-                        android:hint="@string/perfil_nome_completo"
-                        android:textColor="@android:color/black"
-                        android:textSize="18sp" />
-
-                </LinearLayout>
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp" />
-
-                <LinearLayout
-                    android:id="@+id/Apelido"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/wiewApelido"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginBottom="116dp"
-                        android:layout_weight="1"
-                        android:padding="8dp"
-                        android:text="Nick :"
-                        android:textSize="18sp" />
-
-                    <EditText
-                        android:id="@+id/editTextApelido"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:ems="10"
-                        android:enabled="false"
-                        android:hint="@string/perfil_nick_name"
-                        android:inputType="text" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/LinearGenero"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/viewSexo"
-                        android:layout_width="36dp"
-                        android:layout_height="40dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginBottom="116dp"
-                        android:layout_weight="1"
-                        android:padding="8dp"
-                        android:text="Sexo:"
-                        android:textSize="18sp" />
-
-                    <EditText
-                        android:id="@+id/editTextGenero"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:ems="10"
-                        android:enabled="false"
-                        android:hint="Sexo"
-                        android:inputType="text" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/DataNascimento"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/viewDataNasc"
-                        android:layout_width="35dp"
-                        android:layout_height="40dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginBottom="116dp"
-                        android:layout_weight="1"
-                        android:padding="8dp"
-                        android:text="Nasc:"
-                        android:textSize="18sp" />
-
-                    <EditText
-                        android:id="@+id/editTextDataNasc"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:ems="10"
-                        android:enabled="false"
-                        android:hint="@string/perfil_data_nascimento"
-                        android:inputType="date" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/Telefone"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/wiewTelefone"
-                        android:layout_width="35dp"
-                        android:layout_height="45dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginBottom="116dp"
-                        android:layout_weight="1"
-                        android:padding="8dp"
-                        android:text="Fone :"
-                        android:textSize="18sp" />
-
-                    <EditText
-                        android:id="@+id/editTextTelefone"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:ems="10"
-                        android:enabled="false"
-                        android:hint="@string/perfil_telefone"
-                        android:inputType="textPhonetic|phone" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/Email"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/viewEmail"
-                        android:layout_width="35dp"
-                        android:layout_height="40dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginBottom="116dp"
-                        android:layout_weight="1"
-                        android:padding="8dp"
-                        android:text="Email:"
-                        android:textSize="18sp" />
-
-                    <EditText
-                        android:id="@+id/editTextEmail"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:ems="10"
-                        android:enabled="false"
-                        android:hint="@string/perfil_email"
-                        android:inputType="textEmailAddress" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/Senha"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/viewSenha"
-                        android:layout_width="35dp"
-                        android:layout_height="40dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginBottom="116dp"
-                        android:layout_weight="1"
-                        android:padding="8dp"
-                        android:text="Senha:"
-                        android:textSize="18sp" />
-
-                    <EditText
-                        android:id="@+id/editTextSenha"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:editable="false"
-                        android:ems="10"
-                        android:enabled="false"
-                        android:hint="@string/perfil_senha"
-                        android:inputType="textPassword" />
-                </LinearLayout>
-
-            </LinearLayout>
-        </ScrollView>
+        <TextView
+            android:id="@+id/editTextNome"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="344dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/perfil_nome_completo"
+            android:gravity="center"
+            android:hint="@string/perfil_nome_completo"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
     </LinearLayout>
 
-    <Space
-        android:id="@+id/space"
-        android:layout_width="0dp"
-        android:layout_height="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonAlterar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="?android:attr/listDivider" />
 
-    <Button
-        android:id="@+id/buttonAlterar"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:id="@+id/Apelido"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/wiewApelido"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="116dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Apelido :"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextApelido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="@string/perfil_nick_name"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearGenero"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/viewSexo"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="116dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Sexo:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextGenero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="Sexo"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/DataNascimento"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/viewDataNasc"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="116dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Nasc:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextDataNasc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="@string/perfil_data_nascimento"
+            android:inputType="date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/viewEmail"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="116dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Email:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="@string/perfil_email"
+            android:inputType="textEmailAddress" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Senha"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/viewSenha"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="116dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Senha:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="@string/perfil_senha"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:id="@+id/botoes"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
         android:layout_weight="1"
-        android:background="@android:drawable/screen_background_light_transparent"
-        android:contentDescription="@string/perfil_button_alterar"
-        android:text="Alterar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/space" />
+        android:gravity="top|center"
+        android:orientation="horizontal">
 
-</android.support.constraint.ConstraintLayout>
+        <Button
+            android:id="@+id/buttonAlterar"
+            android:layout_width="170dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="36dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/screen_background_light_transparent"
+            android:contentDescription="@string/perfil_button_alterar"
+            android:text="Alterar" />
+    </LinearLayout>
+
+</LinearLayout>
