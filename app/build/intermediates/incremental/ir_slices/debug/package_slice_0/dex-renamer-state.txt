@@ -1,4 +1,4 @@
-#Fri Nov 02 13:58:18 BRST 2018
+#Fri Nov 02 15:32:33 BRST 2018
 base.0=C\:\\Users\\anton\\Documents\\AndroidStudio\\highlighter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

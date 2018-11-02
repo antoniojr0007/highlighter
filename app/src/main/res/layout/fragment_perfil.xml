@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fundo"
     android:orientation="vertical"
-    tools:context=".Fragment.PerfilFragment">
+    tools:context=".Fragment.PerfilFragment"
+    tools:layout_editor_absoluteY="25dp">
 
     <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="465dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -260,21 +267,25 @@
     </LinearLayout>
 
     <Space
-        android:layout_width="match_parent"
-        android:layout_height="10dp" />
+        android:id="@+id/space"
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAlterar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
     <Button
         android:id="@+id/buttonAlterar"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="36dp"
         android:layout_weight="1"
         android:background="@android:drawable/screen_background_light_transparent"
         android:contentDescription="@string/perfil_button_alterar"
-        android:text="Alterar" />
+        android:text="Alterar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/space" />
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>
