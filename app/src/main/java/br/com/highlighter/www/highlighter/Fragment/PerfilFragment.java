@@ -54,7 +54,7 @@ public class PerfilFragment extends Fragment implements Response.Listener<JSONOb
     String senha = "";
 
     TextView campoNomeCompleto;
-    EditText campoApelido, campoDataNasc, campoEmail, campoSenha, campoGenero;
+    EditText campoApelido, campoDataNasc, campoEmail,campoTelefone, campoSenha, campoGenero;
     Button  buttonAlterar;
     //CircleImageView compoFotoPerfil;
     ProgressDialog progresso;
@@ -102,16 +102,17 @@ public class PerfilFragment extends Fragment implements Response.Listener<JSONOb
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View visual = inflater.inflate(R.layout.fragment_perfil, container, false);
+        View view = inflater.inflate(R.layout.fragment_perfil, container, false);
 
-        campoNomeCompleto = visual.findViewById(R.id.editTextNome);
-        campoApelido      = visual.findViewById(R.id.editTextApelido);
-        campoGenero       = visual.findViewById(R.id.spinnerGenero);
-        campoDataNasc     = visual.findViewById(R.id.editTextDataNasc);
-        campoEmail        = visual.findViewById(R.id.editTextEmail);
-        campoSenha        = visual.findViewById(R.id.editTextSenha);
-        campoGenero       = visual.findViewById(R.id.editTextGenero);
-        buttonAlterar      = visual.findViewById(R.id.buttonAlterar);
+        campoNomeCompleto = view.findViewById(R.id.editTextNome);
+        campoApelido      = view.findViewById(R.id.editTextApelido);
+        campoGenero       = view.findViewById(R.id.spinnerGenero);
+        campoDataNasc     = view.findViewById(R.id.editTextDataNasc);
+        //campoTelefone     = view.findViewById(R.id.editTelefone);
+        campoEmail        = view.findViewById(R.id.editTextEmail);
+        campoSenha        = view.findViewById(R.id.editTextSenha);
+        campoGenero       = view.findViewById(R.id.editTextGenero);
+        buttonAlterar      = view.findViewById(R.id.buttonAlterar);
 
         campoNomeCompleto.setTextColor(Color.BLACK);
         campoSenha.setTextColor(Color.BLACK);
@@ -119,6 +120,7 @@ public class PerfilFragment extends Fragment implements Response.Listener<JSONOb
         campoDataNasc.setTextColor(Color.BLACK);
         campoApelido.setTextColor(Color.BLACK);
         campoGenero.setTextColor(Color.BLACK);
+        //ampoTelefone.setTextColor(Color.BLACK);
 
         request = Volley.newRequestQueue(getContext());
 
@@ -131,7 +133,7 @@ public class PerfilFragment extends Fragment implements Response.Listener<JSONOb
             }
         });
 
-        return visual;
+        return view;
     }
 
     public void carregarWebService(){
@@ -146,7 +148,8 @@ public class PerfilFragment extends Fragment implements Response.Listener<JSONOb
         senha = sharedPreferences.getString("senha", "");
 
 
-        String url = Servidor.mostrarServidor() +"consultarUsuario.php?id="+id;
+        //String url = Servidor.mostrarServidor() +"consultarUsuario.php?id="+id;
+        String url = Servidor.ConsultaPerfil()+"id="+id;
 
         url = url.replace(" ", "%20");
 
@@ -200,6 +203,7 @@ public class PerfilFragment extends Fragment implements Response.Listener<JSONOb
             usuario.setNomeCompleto(jsonObject.optString("nomeCompleto"));
             usuario.setApelido(jsonObject.optString("apelido"));
             usuario.setDataNascimento(jsonObject.optString("dataNascimento"));
+            usuario.setTelefone(jsonObject.optString("telefone"));
             usuario.setEmail(jsonObject.optString("email"));
             usuario.setSenha(jsonObject.optString("senha"));
             usuario.setGenero(jsonObject.optString("genero"));
@@ -210,6 +214,7 @@ public class PerfilFragment extends Fragment implements Response.Listener<JSONOb
         campoNomeCompleto.setText(usuario.getNomeCompleto());
         campoApelido.setText(usuario.getApelido());
         campoDataNasc.setText(usuario.getDataNascimento());
+        //campoTelefone.setText(usuario.getTelefone());
         campoEmail.setText(usuario.getEmail());
         campoSenha.setText(senha);
         campoGenero.setText(usuario.getGenero());
@@ -227,6 +232,7 @@ public class PerfilFragment extends Fragment implements Response.Listener<JSONOb
         campoApelido.setText("");
         campoGenero.setSelection(0);
         campoDataNasc.setText("");
+        //campoTelefone.setText("");
         campoEmail.setText("");
         campoSenha.setText("");
     }

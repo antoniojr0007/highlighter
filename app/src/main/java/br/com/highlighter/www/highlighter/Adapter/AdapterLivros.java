@@ -25,19 +25,20 @@ public class AdapterLivros extends RecyclerView.Adapter<AdapterLivros.LivrosHold
     @Override
     public LivrosHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View vista = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_livro, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_livro, parent, false);
         RecyclerView.LayoutParams layoutParams = new RecyclerView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT
         );
 
-        vista.setLayoutParams(layoutParams);
+        view.setLayoutParams(layoutParams);
 
-        return new LivrosHolder(vista);
+        return new LivrosHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull LivrosHolder holder, int position) {
         holder.textNome.setText(listaLivros.get(position).getNome_livro().toString());
+        holder.textAutor.setText(listaLivros.get(position).getAutor().toString());
 
         //Picasso.get().load(R.drawable.padrao).into(holder.imageLivro);
     }
@@ -49,13 +50,14 @@ public class AdapterLivros extends RecyclerView.Adapter<AdapterLivros.LivrosHold
 
     public class LivrosHolder extends RecyclerView.ViewHolder {
 
-        TextView textNome;
+        TextView textNome, textAutor;
         ImageView imageLivro;
 
         public LivrosHolder(@NonNull View itemView) {
             super(itemView);
 
             textNome = itemView.findViewById(R.id.textNome);
+            textAutor = itemView.findViewById(R.id.editTextAutor);
             imageLivro = itemView.findViewById(R.id.imageLivro);
         }
     }

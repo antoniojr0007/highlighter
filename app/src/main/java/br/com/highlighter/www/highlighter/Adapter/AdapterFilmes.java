@@ -9,13 +9,13 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-//import com.squareup.picasso.Picasso;
-
 import java.util.List;
-
 
 import br.com.highlighter.www.highlighter.Model.Filme;
 import br.com.highlighter.www.highlighter.R;
+
+//import com.squareup.picasso.Picasso;
+
 public class AdapterFilmes extends RecyclerView.Adapter<AdapterFilmes.FilmesHolder> {
 
     List<Filme> listaFilmes;
@@ -28,14 +28,14 @@ public class AdapterFilmes extends RecyclerView.Adapter<AdapterFilmes.FilmesHold
     @Override
     public FilmesHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View vista = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_filme, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_filme, parent, false);
         RecyclerView.LayoutParams layoutParams = new RecyclerView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT
         );
 
-        vista.setLayoutParams(layoutParams);
+        view.setLayoutParams(layoutParams);
 
-        return new FilmesHolder(vista);
+        return new FilmesHolder(view);
     }
 
     @Override

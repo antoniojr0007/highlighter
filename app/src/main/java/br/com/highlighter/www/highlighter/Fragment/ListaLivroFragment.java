@@ -109,12 +109,14 @@ public class ListaLivroFragment extends Fragment implements Response.Listener<JS
         return view;
     }
 
+
     private void carregarWebService() {
         progresso = new ProgressDialog(getContext());
         progresso.setMessage("Listando livros...");
         progresso.show();
 
-        String url = Servidor.mostrarServidor() +"listarLivros.php";
+        //String url = Servidor.mostrarServidor() +"listarLivros.php";
+        String url = Servidor.ConsultaLivro();
 
         jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, this, this);
         request.add(jsonObjectRequest);
@@ -165,6 +167,7 @@ public class ListaLivroFragment extends Fragment implements Response.Listener<JS
                 jsonObject = json.getJSONObject(i);
 
                 livro.setNome_livro(jsonObject.optString("nomeLivro"));
+                livro.setAutor(jsonObject.optString("autor"));
 
                 listaLivros.add(livro);
             }

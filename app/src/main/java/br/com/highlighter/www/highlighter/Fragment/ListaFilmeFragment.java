@@ -99,7 +99,7 @@ public class ListaFilmeFragment extends Fragment implements Response.Listener<JS
 
         listaFilmes = new ArrayList<>();
 
-        recyclerFilmes = view.findViewById(R.id.recyclerFilme);
+        recyclerFilmes = view.findViewById(R.id.recyclerFilmes);
         recyclerFilmes.setLayoutManager(new LinearLayoutManager(this.getContext()));
         recyclerFilmes.setHasFixedSize(true);
 
@@ -113,10 +113,11 @@ public class ListaFilmeFragment extends Fragment implements Response.Listener<JS
 
     private void carregarWebService() {
         progresso = new ProgressDialog(getContext());
-        progresso.setMessage("Listando livros...");
+        progresso.setMessage("Listando filmes...");
         progresso.show();
 
-        String url = Servidor.mostrarServidor() +"listarLivros.php";
+        //String url = Servidor.mostrarServidor() +"listarFilmes.php";
+        String url = Servidor.ConsultaFilme();
 
         jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, this, this);
         request.add(jsonObjectRequest);

@@ -213,5 +213,6 @@
         <item>Feminino</item>
     </string-array>
     <string name="title_activity_comentario_livro">ComentarioLivroActivity</string>
+    <string name="livro_autor">Autor ( a ):</string>
     <!--//Spinner Genero Fim-->
 </resources>

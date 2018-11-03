@@ -114,7 +114,8 @@ public class ListaSerieFragment extends Fragment implements Response.Listener<JS
         progresso.setMessage("Listando series...");
         progresso.show();
 
-        String url = Servidor.mostrarServidor() +"listarSeries.php";
+        //String url = Servidor.mostrarServidor() +"listarSeries.php";
+        String url = Servidor.ConsultaSerie();
 
         jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, this, this);
         request.add(jsonObjectRequest);

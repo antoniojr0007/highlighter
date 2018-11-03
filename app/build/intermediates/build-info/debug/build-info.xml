@@ -2,79 +2,49 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="26"
-    build-mode="FULL"
+    build-mode="HOT_WARM"
     density="xxhdpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1541188334692"
+    timestamp="1541238298108"
     token="-8157007993646955189"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="27186" />
+        duration="10937" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="284" />
     <task
         name="instant-run-transform"
-        duration="4921" />
+        duration="1245" />
     <task
         name="verifier"
-        duration="2194" />
+        duration="311" />
 
     <artifact
-        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1541188334692"
+        timestamp="1541227055747"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -86,7 +56,45 @@
             location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_TYPE_CHANGE"
+        timestamp="1541229261423"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1541238157510"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -95,17 +103,28 @@
             location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1541238298108"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\anton\Documents\AndroidStudio\highlighter\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

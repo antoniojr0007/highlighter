@@ -13,18 +13,18 @@
     <!-- TODO: Update blank fragment layout -->
 
     <Spinner
-        android:id="@+id/spinnerGenero"
+        android:id="@+id/spinnerCategoria"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:dropDownWidth="match_parent"
         android:entries="@array/spinnerCategoria"
         android:gravity="center"
-        android:textAlignment="center"
         android:spinnerMode="dialog"
+        android:textAlignment="center"
         tools:layout_editor_absoluteY="18dp" />
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerFilme"
+        android:id="@+id/recyclerFilmes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="0dp"

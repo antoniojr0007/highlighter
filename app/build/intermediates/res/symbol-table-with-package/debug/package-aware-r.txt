@@ -1242,6 +1242,7 @@ id imageSerie
 id imageUsuario
 id imageViewEmail
 id imagemEquipe
+id imagemLivro
 id imagemLogin
 id info
 id invisible
@@ -1292,7 +1293,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id recyclerComentarios
-id recyclerFilme
+id recyclerFilmes
 id recyclerLivros
 id recyclerSerie
 id right
@@ -1329,6 +1330,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinnerCategoria
 id spinnerFiltro
 id spinnerGenero
 id split_action_bar
@@ -1624,6 +1626,7 @@ string filme_imagem
 string filme_titulo
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
+string livro_autor
 string livro_button_comentar
 string livro_button_curtir
 string livro_button_descurtir
