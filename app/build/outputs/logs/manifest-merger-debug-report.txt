@@ -10,6 +10,7 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\anton\.gradle\cac
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1dc379615b8b2dc20cc32051a88c7940\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\1bb82929597166da4782637cbb00e2f7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\85cb21e088557dbdb4e6e9f83519752d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7aea6ec14dfcd4e1118c56f29c997f22\AndroidManifest.xml:2:1-14:12
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\a1da6b8fae714f1b83cc3d60d3192530\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1ea47d2e977c090d64d17b60db40bc23\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\1bfa42c676a05b7186dc48f0aba9cae2\AndroidManifest.xml:17:1-22:12
@@ -30,6 +31,7 @@ MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\anton\
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f21edad016edc1e34aad59d78595905c\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\87c26c80d49da1c3f14ec4b882930b9e\AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\6ac0e26920fce83be63b96a6ff768fd2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\fbfcb5aebe12faf933fdc8ffd412bbe3\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a27ac5f9eaf502e6676c27029de5b664\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\23569588a10dade54999ac04b35c0694\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\f0dd6a8f6b3949be9fd7937fb91f587c\AndroidManifest.xml:17:1-22:12
@@ -69,6 +71,8 @@ MERGED from [com.github.santalu:mask-edittext:1.0.9] C:\Users\anton\.gradle\cach
 MERGED from [com.github.santalu:mask-edittext:1.0.9] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\mask-edittext-1.0.9.aar\6a3e2e8c978396b246a2772a787eb5d3\AndroidManifest.xml:11:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1dc379615b8b2dc20cc32051a88c7940\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1dc379615b8b2dc20cc32051a88c7940\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7aea6ec14dfcd4e1118c56f29c997f22\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7aea6ec14dfcd4e1118c56f29c997f22\AndroidManifest.xml:7:5-12:19
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\a1da6b8fae714f1b83cc3d60d3192530\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\a1da6b8fae714f1b83cc3d60d3192530\AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1ea47d2e977c090d64d17b60db40bc23\AndroidManifest.xml:9:5-20
@@ -175,6 +179,8 @@ MERGED from [com.android.support:support-v4:28.0.0] C:\Users\anton\.gradle\cache
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\1bb82929597166da4782637cbb00e2f7\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\85cb21e088557dbdb4e6e9f83519752d\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\85cb21e088557dbdb4e6e9f83519752d\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7aea6ec14dfcd4e1118c56f29c997f22\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7aea6ec14dfcd4e1118c56f29c997f22\AndroidManifest.xml:5:5-44
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\a1da6b8fae714f1b83cc3d60d3192530\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\a1da6b8fae714f1b83cc3d60d3192530\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1ea47d2e977c090d64d17b60db40bc23\AndroidManifest.xml:7:5-43
@@ -215,6 +221,8 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\anton\.gra
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\87c26c80d49da1c3f14ec4b882930b9e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\6ac0e26920fce83be63b96a6ff768fd2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\6ac0e26920fce83be63b96a6ff768fd2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\fbfcb5aebe12faf933fdc8ffd412bbe3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\fbfcb5aebe12faf933fdc8ffd412bbe3\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a27ac5f9eaf502e6676c27029de5b664\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a27ac5f9eaf502e6676c27029de5b664\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\23569588a10dade54999ac04b35c0694\AndroidManifest.xml:20:5-44
@@ -245,3 +253,11 @@ INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\An
 		INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\anton\Documents\AndroidStudio\highlighter\app\src\main\AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7aea6ec14dfcd4e1118c56f29c997f22\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7aea6ec14dfcd4e1118c56f29c997f22\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7aea6ec14dfcd4e1118c56f29c997f22\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\7aea6ec14dfcd4e1118c56f29c997f22\AndroidManifest.xml:9:13-64

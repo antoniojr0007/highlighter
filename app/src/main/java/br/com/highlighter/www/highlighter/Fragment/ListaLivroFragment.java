@@ -94,11 +94,11 @@ public class ListaLivroFragment extends Fragment implements Response.Listener<JS
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_lista_livro, container, false);
+        View vista = inflater.inflate(R.layout.fragment_lista_livro, container, false);
 
         listaLivros = new ArrayList<>();
 
-        recyclerLivros = view.findViewById(R.id.recyclerLivros);
+        recyclerLivros = vista.findViewById(R.id.recyclerLivros);
         recyclerLivros.setLayoutManager(new LinearLayoutManager(this.getContext()));
         recyclerLivros.setHasFixedSize(true);
 
@@ -106,17 +106,15 @@ public class ListaLivroFragment extends Fragment implements Response.Listener<JS
 
         carregarWebService();
 
-        return view;
+        return vista;
     }
-
 
     private void carregarWebService() {
         progresso = new ProgressDialog(getContext());
         progresso.setMessage("Listando livros...");
         progresso.show();
 
-        //String url = Servidor.mostrarServidor() +"listarLivros.php";
-        String url = Servidor.ConsultaLivro();
+        String url = Servidor.mostrarServidor() +"listarLivrosImagem.php";
 
         jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, this, this);
         request.add(jsonObjectRequest);
@@ -150,7 +148,7 @@ public class ListaLivroFragment extends Fragment implements Response.Listener<JS
     public void onErrorResponse(VolleyError error) {
         progresso.hide();
         Toast.makeText(getContext(), "Não foi possível conectar ao servidor!", Toast.LENGTH_LONG).show();
-        Log.v("String", error.getMessage());
+        Log.v("String",error.getMessage().toString());
     }
 
     @Override
@@ -168,6 +166,7 @@ public class ListaLivroFragment extends Fragment implements Response.Listener<JS
 
                 livro.setNome_livro(jsonObject.optString("nomeLivro"));
                 livro.setAutor(jsonObject.optString("autor"));
+                livro.setDadosImagem(jsonObject.optString("imagem"));
 
                 listaLivros.add(livro);
             }
@@ -177,6 +176,7 @@ public class ListaLivroFragment extends Fragment implements Response.Listener<JS
             recyclerLivros.setAdapter(adapter);
         }catch (JSONException e){
             Toast.makeText(getContext(), "Não foi possível conectar ao servidor!" + response, Toast.LENGTH_LONG).show();
+            Log.v("String", response.toString());
         }
     }
 

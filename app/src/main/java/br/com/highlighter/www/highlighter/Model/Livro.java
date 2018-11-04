@@ -1,5 +1,9 @@
 package br.com.highlighter.www.highlighter.Model;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.util.Base64;
+
 public class Livro {
 
     private int id;
@@ -9,7 +13,8 @@ public class Livro {
     private String autor;
     private String curtidas;
     private String descurtidas;
-    private String imagem;
+    private String dadosImagem;
+    private Bitmap imagem;
     private String urlimagem;
 
 
@@ -17,7 +22,7 @@ public class Livro {
 
     }
 
-    public Livro(int id, String nome_livro, String categoria, String descricao, String autor, String curtidas, String descurtidas, String imagem, String urlimagem) {
+    public Livro(int id, String nome_livro, String categoria, String descricao, String autor, String curtidas, String descurtidas, String dadosImagem, Bitmap imagem, String urlimagem) {
         this.id = id;
         this.nome_livro = nome_livro;
         this.categoria = categoria;
@@ -25,6 +30,7 @@ public class Livro {
         this.autor = autor;
         this.curtidas = curtidas;
         this.descurtidas = descurtidas;
+        this.dadosImagem = dadosImagem;
         this.imagem = imagem;
         this.urlimagem = urlimagem;
     }
@@ -85,11 +91,26 @@ public class Livro {
         this.descurtidas = descurtidas;
     }
 
-    public String getImagem() {
+    public String getDadosImagem() {
+        return dadosImagem;
+    }
+
+    public void setDadosImagem(String dadosImagem) {
+        this.dadosImagem = dadosImagem;
+
+        try{
+            byte[] byteCode = Base64.decode(dadosImagem, Base64.DEFAULT);
+            this.imagem = BitmapFactory.decodeByteArray(byteCode, 0, byteCode.length);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public Bitmap getImagem() {
         return imagem;
     }
 
-    public void setImagem(String imagem) {
+    public void setImagem(Bitmap imagem) {
         this.imagem = imagem;
     }
 

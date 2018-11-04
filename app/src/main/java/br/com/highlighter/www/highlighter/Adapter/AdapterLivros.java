@@ -1,5 +1,6 @@
 package br.com.highlighter.www.highlighter.Adapter;
 
+import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,12 +9,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 import br.com.highlighter.www.highlighter.Model.Livro;
 import br.com.highlighter.www.highlighter.R;
-
-//import com.squareup.picasso.Picasso;
 
 public class AdapterLivros extends RecyclerView.Adapter<AdapterLivros.LivrosHolder>{
 
@@ -40,7 +41,11 @@ public class AdapterLivros extends RecyclerView.Adapter<AdapterLivros.LivrosHold
         holder.textNome.setText(listaLivros.get(position).getNome_livro().toString());
         holder.textAutor.setText(listaLivros.get(position).getAutor().toString());
 
-        //Picasso.get().load(R.drawable.padrao).into(holder.imageLivro);
+        if(listaLivros.get(position).getImagem() != null){
+            holder.imageLivro.setImageBitmap(listaLivros.get(position).getImagem());
+        }else{
+            Picasso.get().load(R.drawable.padrao).into(holder.imageLivro);
+        }
     }
 
     @Override

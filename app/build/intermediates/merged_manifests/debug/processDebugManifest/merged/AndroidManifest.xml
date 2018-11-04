@@ -43,6 +43,11 @@
         <activity android:name="br.com.highlighter.www.highlighter.Activity.SugestaoLivroActivity" />
         <activity android:name="br.com.highlighter.www.highlighter.Activity.SugestaoFilmeActivity" />
         <activity android:name="br.com.highlighter.www.highlighter.Activity.SugestaoSerieActivity" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="br.com.highlighter.www.highlighter.com.squareup.picasso"
+            android:exported="false" />
     </application>
 
 </manifest>
