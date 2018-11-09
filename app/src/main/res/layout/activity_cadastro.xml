@@ -210,7 +210,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="@string/cadastro_telefone"
-            android:inputType="text"
+            android:inputType="number"
             android:selectAllOnFocus="true"
             android:singleLine="true" />
 

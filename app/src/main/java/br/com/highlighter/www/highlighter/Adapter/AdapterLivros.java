@@ -26,14 +26,14 @@ public class AdapterLivros extends RecyclerView.Adapter<AdapterLivros.LivrosHold
     @Override
     public LivrosHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_livro, parent, false);
+        View vista = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_livro, parent, false);
         RecyclerView.LayoutParams layoutParams = new RecyclerView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT
         );
 
-        view.setLayoutParams(layoutParams);
+        vista.setLayoutParams(layoutParams);
 
-        return new LivrosHolder(view);
+        return new LivrosHolder(vista);
     }
 
     @Override

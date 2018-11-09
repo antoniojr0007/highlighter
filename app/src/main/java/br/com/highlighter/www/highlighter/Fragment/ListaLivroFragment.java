@@ -11,6 +11,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -60,6 +62,10 @@ public class ListaLivroFragment extends Fragment implements Response.Listener<JS
     RequestQueue request;
     JsonObjectRequest jsonObjectRequest;
 
+    Spinner spinnerGenero;
+
+    String categoria = "Todos";
+
     public ListaLivroFragment() {
         // Required empty public constructor
     }
@@ -104,7 +110,24 @@ public class ListaLivroFragment extends Fragment implements Response.Listener<JS
 
         request = Volley.newRequestQueue(getContext());
 
-        carregarWebService();
+        spinnerGenero = vista.findViewById(R.id.spinnerGenero);
+        spinnerGenero.setOnItemSelectedListener(
+                new AdapterView.OnItemSelectedListener() {
+                    @Override
+                    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                        Object item = parent.getItemAtPosition(position);
+
+                        categoria = item.toString();
+
+                        carregarWebService();
+                    }
+
+                    @Override
+                    public void onNothingSelected(AdapterView<?> parent) {
+
+                    }
+                }
+        );
 
         return vista;
     }
@@ -114,7 +137,9 @@ public class ListaLivroFragment extends Fragment implements Response.Listener<JS
         progresso.setMessage("Listando livros...");
         progresso.show();
 
-        String url = Servidor.mostrarServidor() +"listarLivrosImagem.php";
+        String url = Servidor.mostrarServidor() +"listarLivrosImagemPorCategoria.php?categoria="+ categoria;
+
+        url = url.replace(" ", "%20");
 
         jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, this, this);
         request.add(jsonObjectRequest);
@@ -148,17 +173,17 @@ public class ListaLivroFragment extends Fragment implements Response.Listener<JS
     public void onErrorResponse(VolleyError error) {
         progresso.hide();
         Toast.makeText(getContext(), "Não foi possível conectar ao servidor!", Toast.LENGTH_LONG).show();
-        Log.v("String",error.getMessage().toString());
+        Log.v("String", error.toString());
+        //Log.v("String", error.getMessage().toString());
     }
 
     @Override
     public void onResponse(JSONObject response) {
-        progresso.hide();
-
         Livro livro = null;
         JSONArray json = response.optJSONArray("livro");
 
         try {
+            listaLivros.clear();
             for(int i = 0; i < json.length(); i++){
                 livro = new Livro();
                 JSONObject jsonObject = null;
