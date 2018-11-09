@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 
@@ -38,9 +40,14 @@ public class AdapterSeries extends RecyclerView.Adapter<AdapterSeries.SeriesHold
 
     @Override
     public void onBindViewHolder(@NonNull SeriesHolder holder, int position) {
-        holder.textNomeSerie.setText(listaSeries.get(position).getNome_Serie().toString());
+        holder.textNomeSerie.setText(listaSeries.get(position).getNome_serie().toString());
+        holder.textProdutora.setText(listaSeries.get(position).getProdutora().toString());
 
-        //Picasso.get().load(R.drawable.padrao).into(holder.imageSeire);
+        if(listaSeries.get(position).getImagem() != null){
+            holder.imageSerie.setImageBitmap(listaSeries.get(position).getImagem());
+        }else{
+            Picasso.get().load(R.drawable.padrao).into(holder.imageSerie);
+        }
         }
 
     @Override
@@ -50,13 +57,14 @@ public class AdapterSeries extends RecyclerView.Adapter<AdapterSeries.SeriesHold
 
     public class SeriesHolder extends RecyclerView.ViewHolder {
 
-    TextView textNomeSerie;
+    TextView textNomeSerie, textProdutora;
     ImageView imageSerie;
 
     public SeriesHolder(@NonNull View itemView) {
         super(itemView);
 
         textNomeSerie = itemView.findViewById(R.id.textNomeSerie);
+        textProdutora = itemView.findViewById(R.id.textProdutora);
         imageSerie = itemView.findViewById(R.id.imageSerie);
     }
 }

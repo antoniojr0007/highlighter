@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        Fragment myFragment = new BemVindoFragment();
+        Fragment myFragment = new ListaLivroFragment();
         getSupportFragmentManager().beginTransaction().replace(R.id.content_main,myFragment).commit();
 
         NavigationView navigationView = findViewById(R.id.nav_view);
@@ -118,10 +118,10 @@ public class MainActivity extends AppCompatActivity
         Fragment myFragment = null;
         boolean fragmentSelect = false;
 
-        if (id == R.id.nav_bem_vindo) {
+        /*if (id == R.id.nav_bem_vindo) {
             myFragment = new BemVindoFragment();
             fragmentSelect = true;
-        } else if (id == R.id.nav_livro) {
+        } else*/ if (id == R.id.nav_livro) {
             myFragment = new ListaLivroFragment();
             fragmentSelect = true;
         }else if (id == R.id.nav_filme) {

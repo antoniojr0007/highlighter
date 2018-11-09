@@ -1,71 +1,45 @@
 package br.com.highlighter.www.highlighter.Model;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.util.Base64;
+
 public class Filme {
 
-    private String curtidas;
-    private String descricao;
-    private String descurtidas;
-    private String genero;
-    private String imagem;
+    private int id;
     private String nome_filme;
     private String categoria;
-    private String urlimagem;
+    private String descricao;
     private String produtora;
+    private String curtidas;
+    private String descurtidas;
+    private String dadosImagem;
+    private Bitmap imagem;
+    private String urlimagem;
 
     public Filme() {
 
     }
 
-    public Filme(String curtidas, String descricao, String descurtidas, String genero, String imagem, String nome_filme, String categoria, String urlimagem, String produtora) {
-        this.curtidas = curtidas;
-        this.descricao = descricao;
-        this.descurtidas = descurtidas;
-        this.genero = genero;
-        this.imagem = imagem;
+    public Filme(int id, String nome_filme, String categoria, String descricao, String produtora, String curtidas, String descurtidas, String dadosImagem, Bitmap imagem, String urlimagem) {
+        this.id = id;
         this.nome_filme = nome_filme;
         this.categoria = categoria;
-        this.urlimagem = urlimagem;
-        this.produtora = produtora;
-    }
-
-    public String getCurtidas() {
-        return curtidas;
-    }
-
-    public void setCurtidas(String curtidas) {
-        this.curtidas = curtidas;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
         this.descricao = descricao;
-    }
-
-    public String getDescurtidas() {
-        return descurtidas;
-    }
-
-    public void setDescurtidas(String descurtidas) {
+        this.produtora = produtora;
+        this.curtidas = curtidas;
         this.descurtidas = descurtidas;
-    }
-
-    public String getGenero() {
-        return genero;
-    }
-
-    public void setGenero(String genero) {
-        this.genero = genero;
-    }
-
-    public String getImagem() {
-        return imagem;
-    }
-
-    public void setImagem(String imagem) {
+        this.dadosImagem = dadosImagem;
         this.imagem = imagem;
+        this.urlimagem = urlimagem;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNome_filme() {
@@ -84,12 +58,12 @@ public class Filme {
         this.categoria = categoria;
     }
 
-    public String getUrlimagem() {
-        return urlimagem;
+    public String getDescricao() {
+        return descricao;
     }
 
-    public void setUrlimagem(String urlimagem) {
-        this.urlimagem = urlimagem;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
     public String getProdutora() {
@@ -98,5 +72,51 @@ public class Filme {
 
     public void setProdutora(String produtora) {
         this.produtora = produtora;
+    }
+
+    public String getCurtidas() {
+        return curtidas;
+    }
+
+    public void setCurtidas(String curtidas) {
+        this.curtidas = curtidas;
+    }
+
+    public String getDescurtidas() {
+        return descurtidas;
+    }
+
+    public void setDescurtidas(String descurtidas) {
+        this.descurtidas = descurtidas;
+    }
+
+    public String getDadosImagem() {
+        return dadosImagem;
+    }
+
+    public void setDadosImagem(String dadosImagem) {
+        this.dadosImagem = dadosImagem;
+        try{
+            byte[] byteCode = Base64.decode(dadosImagem, Base64.DEFAULT);
+            this.imagem = BitmapFactory.decodeByteArray(byteCode, 0, byteCode.length);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public Bitmap getImagem() {
+        return imagem;
+    }
+
+    public void setImagem(Bitmap imagem) {
+        this.imagem = imagem;
+    }
+
+    public String getUrlimagem() {
+        return urlimagem;
+    }
+
+    public void setUrlimagem(String urlimagem) {
+        this.urlimagem = urlimagem;
     }
 }

@@ -4,10 +4,10 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
+        <!--<item
             android:id="@+id/nav_bem_vindo"
             android:icon="@drawable/ic_tag_faces_orange"
-            android:title="Bem Vindo" />
+            android:title="Bem Vindo" />-->
         <item
             android:id="@+id/nav_livro"
             android:icon="@drawable/ic_library_books_orange"

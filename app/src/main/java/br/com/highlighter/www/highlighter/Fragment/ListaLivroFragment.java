@@ -137,7 +137,7 @@ public class ListaLivroFragment extends Fragment implements Response.Listener<JS
         progresso.setMessage("Listando livros...");
         progresso.show();
 
-        String url = Servidor.mostrarServidor() +"listarLivrosImagemPorCategoria.php?categoria="+ categoria;
+        String url = Servidor.mostrarServidor() +"categoria="+ categoria;
 
         url = url.replace(" ", "%20");
 

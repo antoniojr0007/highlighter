@@ -24,7 +24,7 @@ public class Servidor {
 
         //String ConsultaLivro = "https://highlighter.azurewebsites.net/listarLivros.php";
         //String ConsultaLivro = "https://highlighter.online/listarLivros.php";
-        String ConsultaLivro = "https://moreirathunay.000webhostapp.com/listarLivros.php";
+        String ConsultaLivro = "https://moreirathunay.000webhostapp.com/listarLivrosImagemPorCategoria.php?";
 
         return ConsultaLivro;
     }
@@ -41,7 +41,7 @@ public class Servidor {
     public static String ConsultaSerie(){
 
         //String ConsultaSerie = "https://highlighter.azurewebsites.net/listarSeries.php";
-        //tring ConsultaSerie = "https://highlighter.online/listarSeries.php";
+        //String ConsultaSerie = "https://highlighter.online/listarSeries.php";
         String ConsultaSerie = "https://moreirathunay.000webhostapp.com/listarSeries.php";
 
         return ConsultaSerie;

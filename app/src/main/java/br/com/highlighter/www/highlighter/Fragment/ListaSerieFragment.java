@@ -166,7 +166,7 @@ public class ListaSerieFragment extends Fragment implements Response.Listener<JS
                 JSONObject jsonObject = null;
                 jsonObject = json.getJSONObject(i);
 
-                serie.setNome_Serie(jsonObject.optString("nomeLivro"));
+                serie.setNome_serie(jsonObject.optString("nomeLivro"));
 
                 listaSeries.add(serie);
             }

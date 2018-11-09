@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 import br.com.highlighter.www.highlighter.Model.Filme;
@@ -41,8 +43,13 @@ public class AdapterFilmes extends RecyclerView.Adapter<AdapterFilmes.FilmesHold
     @Override
     public void onBindViewHolder(@NonNull FilmesHolder holder, int position) {
         holder.textNomeFilme.setText(listaFilmes.get(position).getNome_filme().toString());
+        holder.textProdutora.setText(listaFilmes.get(position).getProdutora().toString());
 
-        //Picasso.get().load(R.drawable.padrao).into(holder.imageFilme);
+        if(listaFilmes.get(position).getImagem() != null){
+            holder.imageFilme.setImageBitmap(listaFilmes.get(position).getImagem());
+        }else{
+            Picasso.get().load(R.drawable.padrao).into(holder.imageFilme);
+        }
     }
 
     @Override
@@ -52,14 +59,14 @@ public class AdapterFilmes extends RecyclerView.Adapter<AdapterFilmes.FilmesHold
 
     public class FilmesHolder extends RecyclerView.ViewHolder {
 
-        TextView textNomeFilme, textCategoria;
+        TextView textNomeFilme, textProdutora;
         ImageView imageFilme;
 
         public FilmesHolder(@NonNull View itemView) {
             super(itemView);
 
             textNomeFilme = itemView.findViewById(R.id.textNome);
-            textCategoria = itemView.findViewById(R.id.textCategoria);
+            textProdutora = itemView.findViewById(R.id.editTextProdutora);
             imageFilme = itemView.findViewById(R.id.imageFilme);
         }
     }

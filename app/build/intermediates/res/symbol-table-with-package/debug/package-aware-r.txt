@@ -1242,7 +1242,6 @@ id imageSerie
 id imageUsuario
 id imageViewEmail
 id imagemEquipe
-id imagemLivro
 id imagemLogin
 id info
 id invisible
@@ -1267,7 +1266,6 @@ id multiply
 id nav_Desenvolvedor
 id nav_Perfil
 id nav_Sobre
-id nav_bem_vindo
 id nav_contato
 id nav_filme
 id nav_livro
@@ -1356,6 +1354,7 @@ id textComentario
 id textNome
 id textNomeCategoria
 id textNomeSerie
+id textProdutora
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart

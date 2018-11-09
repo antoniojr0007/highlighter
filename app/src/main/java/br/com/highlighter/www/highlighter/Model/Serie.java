@@ -1,29 +1,75 @@
 package br.com.highlighter.www.highlighter.Model;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.util.Base64;
+
 public class Serie {
-    private String curtidas;
-    private String descricao;
-    private String descurtidas;
-    private String genero;
-    private String imagem;
-    private String nome_Serie;
+    private int id;
+    private String nome_serie;
     private String categoria;
-    private String urlimagem;
+    private String descricao;
     private String produtora;
+    private String curtidas;
+    private String descurtidas;
+    private String dadosImagem;
+    private Bitmap imagem;
+    private String urlimagem;
 
     public Serie() {
 
     }
 
-    public Serie(String curtidas, String descricao, String descurtidas, String genero, String imagem, String nome_Serie, String categoria, String urlimagem, String produtora) {
-        this.curtidas = curtidas;
-        this.descricao = descricao;
-        this.descurtidas = descurtidas;
-        this.genero = genero;
-        this.imagem = imagem;
-        this.nome_Serie = nome_Serie;
+    public Serie(int id, String nome_serie, String categoria, String descricao, String produtora, String curtidas, String descurtidas, String dadosImagem, Bitmap imagem, String urlimagem) {
+        this.id = id;
+        this.nome_serie = nome_serie;
         this.categoria = categoria;
+        this.descricao = descricao;
+        this.produtora = produtora;
+        this.curtidas = curtidas;
+        this.descurtidas = descurtidas;
+        this.dadosImagem = dadosImagem;
+        this.imagem = imagem;
         this.urlimagem = urlimagem;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNome_serie() {
+        return nome_serie;
+    }
+
+    public void setNome_serie(String nome_serie) {
+        this.nome_serie = nome_serie;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public String getProdutora() {
+        return produtora;
+    }
+
+    public void setProdutora(String produtora) {
         this.produtora = produtora;
     }
 
@@ -35,14 +81,6 @@ public class Serie {
         this.curtidas = curtidas;
     }
 
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
     public String getDescurtidas() {
         return descurtidas;
     }
@@ -51,36 +89,27 @@ public class Serie {
         this.descurtidas = descurtidas;
     }
 
-    public String getGenero() {
-        return genero;
+    public String getDadosImagem() {
+        return dadosImagem;
     }
 
-    public void setGenero(String genero) {
-        this.genero = genero;
+    public void setDadosImagem(String dadosImagem) {
+        this.dadosImagem = dadosImagem;
+
+        try{
+            byte[] byteCode = Base64.decode(dadosImagem, Base64.DEFAULT);
+            this.imagem = BitmapFactory.decodeByteArray(byteCode, 0, byteCode.length);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
-    public String getImagem() {
+    public Bitmap getImagem() {
         return imagem;
     }
 
-    public void setImagem(String imagem) {
+    public void setImagem(Bitmap imagem) {
         this.imagem = imagem;
-    }
-
-    public String getNome_Serie() {
-        return nome_Serie;
-    }
-
-    public void setNome_Serie(String nome_Serie) {
-        this.nome_Serie = nome_Serie;
-    }
-
-    public String getCategoria() {
-        return categoria;
-    }
-
-    public void setCategoria(String categoria) {
-        this.categoria = categoria;
     }
 
     public String getUrlimagem() {
@@ -89,13 +118,5 @@ public class Serie {
 
     public void setUrlimagem(String urlimagem) {
         this.urlimagem = urlimagem;
-    }
-
-    public String getProdutora() {
-        return produtora;
-    }
-
-    public void setProdutora(String produtora) {
-        this.produtora = produtora;
     }
 }
